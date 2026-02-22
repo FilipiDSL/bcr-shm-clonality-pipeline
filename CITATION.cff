@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Filipi"
+    given-names: "Luiz"
+title: "BCR SHM Clonality Pipeline"
+version: 1.0.0
+date-released: 2025-08-22
+url: "https://github.com/FilipiDSL/bcr-shm-clonality-pipeline"
+repository-code: "https://github.com/FilipiDSL/bcr-shm-clonality-pipeline"
+abstract: "An R pipeline for analyzing B-cell receptor (BCR) repertoires, focusing on somatic hypermutation (SHM), clonality, and isotype switching (CSR) in Colorectal Adenocarcinoma (COAD)."
+keywords:
+  - "B-cell receptor"
+  - "BCR"
+  - "Somatic hypermutation"
+  - "SHM"
+  - "Clonality"
+  - "Isotype switching"
+  - "CSR"
+  - "Colorectal Adenocarcinoma"
+  - "COAD"
+  - "Single-cell RNA-seq"
+  - "V(D)J"
+  - "Tertiary Lymphoid Structures"
+  - "TLS"
+  - "R"
+  - "Seurat"
+license: "MIT"

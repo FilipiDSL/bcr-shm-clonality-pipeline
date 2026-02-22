@@ -1,0 +1,33 @@
+# Ignore data files
+data/raw/*.rds
+data/processed/*.rds
+data/raw/*.csv
+data/processed/*.csv
+
+# Ignore results
+results/figures/*.png
+results/figures/*.pdf
+results/tables/*.csv
+results/reports/*.html
+results/reports/*.pdf
+
+# R specific
+.Rhistory
+.Rapp.history
+.RData
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+vignettes/*.html
+vignettes/*.pdf
+.httr-oauth
+*~
+.DS_Store
+
+# renv
+renv/library/
+renv/local/
+renv/staging/
+renv/cache/
+.Rprofile

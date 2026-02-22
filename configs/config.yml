@@ -1,0 +1,21 @@
+# Configuration file for BCR SHM Clonality Pipeline
+
+paths:
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  results_figures: "results/figures"
+  results_tables: "results/tables"
+  results_reports: "results/reports"
+
+files:
+  raw_bcr_preprocessed: "BCR_COAD_preprocessed.rds" # Optional, used in 00_prep.R if available
+  filtered_tumor_adj: "COAD_Tumor_Adjacent.rds"
+  qc_tumor_adj: "COAD_Tumor_Adjacent_QC.rds"
+
+params:
+  seed: 123
+  normalization_method: "LogNormalize"
+  scale_factor: 10000
+  nfeatures_vst: 2000
+  npcs: 30
+  umap_dims: 20
