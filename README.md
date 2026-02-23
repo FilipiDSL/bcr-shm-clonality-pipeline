@@ -1,5 +1,7 @@
 # BCR SHM Clonality Pipeline
 
+📄 **Read the full thesis:** [Computational Modeling Of The Maturation And Clonality Of B Lymphocytes In Colon Adenocarcinoma](docs/Computational_Modeling_Of_The_Maturation_And_Clonality_Of_B_Lymphocytes_In_Colon_Adenocarcinoma.pdf)
+
 ## Overview
 This repository contains an R pipeline for analyzing B-cell receptor (BCR) repertoires, focusing on somatic hypermutation (SHM), clonality, and isotype switching (CSR) in Colorectal Adenocarcinoma (COAD). The pipeline processes single-cell RNA-seq and V(D)J data to compare tumor and adjacent normal tissues, providing quantitative evidence compatible with mature Tertiary Lymphoid Structures (TLS).
 
