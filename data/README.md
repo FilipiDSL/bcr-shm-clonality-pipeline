@@ -29,6 +29,3 @@ The input data should be a `Seurat` object saved as an `.rds` file. The object's
 
 ## Obtaining the Data
 *(Provide instructions here on how a user can obtain the data, e.g., "Data is available upon request from the corresponding author" or "Raw sequencing data can be downloaded from GEO under accession number GSEXXXXXX and processed using the standard 10x Genomics Cell Ranger pipeline.")*
-
-## Toy Dataset
-*(If applicable, provide instructions on how to generate or download a small, anonymized toy dataset to test the pipeline.)*
