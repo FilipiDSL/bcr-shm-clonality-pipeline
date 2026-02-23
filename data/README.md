@@ -28,4 +28,7 @@ The input data should be a `Seurat` object saved as an `.rds` file. The object's
 *   `nFeature_RNA`, `nCount_RNA`: Quality control metrics (optional, used in `01_pre_proc.R`).
 
 ## Obtaining the Data
-*(Provide instructions here on how a user can obtain the data, e.g., "Data is available upon request from the corresponding author" or "Raw sequencing data can be downloaded from GEO under accession number GSEXXXXXX and processed using the standard 10x Genomics Cell Ranger pipeline.")*
+The raw data used in this pipeline can be downloaded from Zenodo:
+[https://zenodo.org/records/11468564](https://zenodo.org/records/11468564)
+
+After downloading, place the required `.rds` files in the `data/raw/` directory as described above.
